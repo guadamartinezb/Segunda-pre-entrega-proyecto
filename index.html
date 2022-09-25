@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="css.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <main id="contenedordeProductos">
+    <h2>Productos:</h2>
+    <button class="btn" id="botonLimpiarStorage"> Vaciar</button>
+    <div id="catalogo" class="container-fluid">
+      <div class="row">
+        <div class="productos col-12 col-sm-6 col-md-4">
+          <article class="maquillajes">
+            <h3 class="nombreproducto"> Bases liquidas MAC </h3>
+            <img src="./imagenes/macbaseliquida.jpg" alt="Base MAC" width="200">
+            <p class="cart-price">$840</p>
+            <div class="boton">
+              <button id="botonComprar">Comprar</button>
+            </div>
+            <div class="mb-3">
+              <label class="form-label"> Cuantos desea comprar? </label>
+              <input type="number" class="form-control" id="inputCantidad" required>
+            </div>
+          </article>
+
+        </div>
+
+
+        <div class=" productos col-12 col-sm-6 col-md-4">
+          <article class="maquillajes">
+            <h3 class="nombreproducto"> Fit Me Blush de Maybelline</h3>
+            <img src="./imagenes/rubor.jpg" alt="Rubor" width="200">
+            <p class="cart-price"> $400 </p>
+            <div class="boton">
+              <button id="botonComprar">Comprar</button>
+            </div>
+          <div class="mb-3">
+            <label class="form-label"> Cuantos desea comprar? </label>
+            <input type="number" class="form-control" id="inputCantidad" required>
+          </div>
+          </article>
+
+        </div>
+        <div class="productos col-12 col-sm-6 col-md-4">
+          <article class="maquillajes">
+            <h3 class="nombreproducto"> Brillo Labial NYX</h3>
+            <img src="./imagenes/labialnyx.jpg" alt="Labial NYX" width="200">
+            <p class="cart-price"> $600 </p>
+            <div class="boton">
+              <button id="botonComprar">Comprar</button>
+            </div>
+            <div class="mb-3">
+              <label class="form-label"> Cuantos desea comprar? </label>
+              <input type="number" class="form-control" id="inputCantidad" required>
+            </div>
+          </article>
+
+        </div>
+        <div class="productos col-12 col-sm-6 col-md-4">
+          <article class="maquillajes">
+            <h3 class="nombreproducto">Iluminador Lancome </h3>
+            <img src="./imagenes/lancomeiluminador.jpg" alt="Iluminador Lancome" width="200">
+            <p class="cart-price"> $1000</p>
+            <div class="boton">
+              <button id="botonComprar">Comprar</button>
+            </div>
+            <div class="mb-3">
+              <label class="form-label"> Cuantos desea comprar? </label>
+              <input type="number" class="form-control" id="inputCantidad" required>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
