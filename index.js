@@ -1,8 +1,8 @@
 let productoss = [];
 let catalogo
-let botonCompra
-let productos
+let productos 
 let usuario
+let botonCompra
 
 let identificacionForm
 let identificacionC
