@@ -13,16 +13,47 @@
 </head>
 
 <body>
-  <main id="contenedordeProductos">
+  <main id="contenedorDelosProductos">
     <h2>Productos:</h2>
     <button class="btn" id="botonLimpiarStorage"> Vaciar</button>
+    
+    <div class="col-md-6">
+      <div id="usuarioC" hidden>
+        <p id="usuariotext">Bienvenido:</p>
+      </div>
+      <div id="identificacionC">
+        <h2>Por favor identificate</h2>
+        <form id="identificacionForm">
+          <div class="row">
+            <div class="col-md-8">
+              <div>
+                <label class="form-label">Nombre y Apellido</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputUsuario"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-end">
+              <button type="submit" class="btn btn-secondary">
+                Registrarse
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+    
     <div id="catalogo" class="container-fluid">
       <div class="row">
         <div class="productos col-12 col-sm-6 col-md-4">
           <article class="maquillajes">
             <h3 id="nombreproducto"> Bases liquidas MAC </h3>
             <img src="./imagenes/macbaseliquida.jpg" alt="Base MAC" width="200">
-            <div class="cantidadD mb-3">
+            <div class="cantidad mb-3">
               <label class="form-label"> Cuantos desea comprar? </label>
               <label class="precio"> $840</label>
               <input type="number" class="form-control" id="inputCantidad" required>
@@ -39,7 +70,7 @@
           <article class="maquillajes">
             <h3 id="nombreproducto"> Fit Me Blush de Maybelline</h3>
             <img src="./imagenes/rubor.jpg" alt="Rubor" width="200">
-            <div class="cantidadD mb-3">
+            <div class="cantidad mb-3">
               <label class="form-label"> Cuantos desea comprar? </label>
               <label class="precio"> $400</label>
               <input type="number" class="form-control" id="inputCantidad" required>
@@ -53,7 +84,7 @@
           <article class="maquillajes">
             <h3 id="nombreproducto"> Brillo Labial NYX</h3>
             <img src="./imagenes/labialnyx.jpg" alt="Labial NYX" width="200">
-            <div class=" cantidadD mb-3">
+            <div class=" cantidad mb-3">
               <label class="form-label"> Cuantos desea comprar? </label>
               <label class="precio"> $600</label>
               <input type="number" class="form-control" id="inputCantidad" required>
@@ -68,7 +99,7 @@
           <article class="maquillajes">
             <h3 id="nombreproducto">Iluminador Lancome </h3>
             <img src="./imagenes/lancomeiluminador.jpg" alt="Iluminador Lancome" width="200">
-            <div class="cantidadD mb-3">
+            <div class="cantidad mb-3">
               <label class="form-label"> Cuantos desea comprar? </label>
               <label class="precio"> $840</label>
               <input type="number" class="form-control" id="inputCantidad" required>
